@@ -13,3 +13,10 @@
 - [Digital Ocean](https://www.digitalocean.com/community/tutorials/hibernate-native-sql-query-example) - hibernate native sql query example
 - [Java Guides](https://www.javaguides.net/2018/11/guide-to-hibernate-native-sql-queries.html) - hibernate native sql queries
 - [Baeldung](https://www.baeldung.com/java-dao-pattern) - Java DAO Pattern
+- [Rollbar](https://rollbar.com/blog/java-unknownformatconversionexception/) - unknown format conversion exception
+- [Spring Docs](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.html#getCatalog()) - AbstractDriverBasedDataSource
+- [Stack Overflow](https://stackoverflow.com/questions/71130510/how-do-i-use-jdbc-template-to-query-a-select-where-first-letter-starts-with-sp) - jbdc template query where first letter starts with
+- [Stack Overflow](https://stackoverflow.com/questions/8247970/using-like-wildcard-in-prepared-statement) - using like wildcard in prepared statement
+- [Mkyong](https://mkyong.com/spring/spring-jdbctemplate-querying-examples/) - jdbctemplate querying examples
+- [Spring Docs](https://docs.spring.io/spring-framework/reference/integration/scheduling.html) - scheduling
+- [Stack Overflow](https://stackoverflow.com/questions/29832122/create-a-new-instance-of-component-in-spring-boot-framework) - create new instance of component in spring boot

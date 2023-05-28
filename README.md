@@ -20,3 +20,12 @@
 - [Mkyong](https://mkyong.com/spring/spring-jdbctemplate-querying-examples/) - jdbctemplate querying examples
 - [Spring Docs](https://docs.spring.io/spring-framework/reference/integration/scheduling.html) - scheduling
 - [Stack Overflow](https://stackoverflow.com/questions/29832122/create-a-new-instance-of-component-in-spring-boot-framework) - create new instance of component in spring boot
+- [Medium](https://medium.com/@KosteRico/spring-aop-in-2021-level-up-your-logging-8d1498242ba2) - level up your logging
+- [Baeldung](https://www.baeldung.com/spring-boot-logging) - spring boot logging
+- [Baeldung](https://www.baeldung.com/spring-aop) - spring aop
+- [Spring Docs](https://docs.spring.io/spring-framework/docs/2.0.x/reference/aop.html) - aop
+- [Eclipse](https://www.eclipse.org/aspectj/doc/released/runtime-api/org/aspectj/lang/JoinPoint.html#getArgs%28%29) - JoinPoint
+- [Nickolas Fisher](https://nickolasfisher.com/blog/How-to-Use-Springs-Aspect-Oriented-Programming-to-log-all-Public-Methods) - AOP to log all public methods
+- [Spring Docs](https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/advice.html#aop-ataspectj-around-advice) - declaring advice
+- [Stack Overflow](https://stackoverflow.com/questions/44635757/spring-4-join-point-to-get-method-argument-names-and-values) - spring 4 join point to get method argument names and values
+- [Stack Overflow](https://stackoverflow.com/questions/64571161/use-aop-in-a-spring-boot-app-to-log-methods-calls-and-their-parameters) - use aop in spring boot to log method calls and their parameters

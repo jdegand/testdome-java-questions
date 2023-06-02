@@ -29,3 +29,12 @@
 - [Spring Docs](https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/advice.html#aop-ataspectj-around-advice) - declaring advice
 - [Stack Overflow](https://stackoverflow.com/questions/44635757/spring-4-join-point-to-get-method-argument-names-and-values) - spring 4 join point to get method argument names and values
 - [Stack Overflow](https://stackoverflow.com/questions/64571161/use-aop-in-a-spring-boot-app-to-log-methods-calls-and-their-parameters) - use aop in spring boot to log method calls and their parameters
+- [YouTube](https://www.youtube.com/watch?v=w3WibDOie1Y) - Introduction to Xml Data Parsing in Java | How to parse the data from given xml in Java
+- [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/javax/xml/parsers/DocumentBuilder.html) - DocumentBuilder
+- [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/?java/util/stream/Stream.html) - Stream
+- [Java Concept of the Day](https://javaconceptoftheday.com/merge-two-arrays-into-single-sorted-array-without-duplicates-in-java/) - single sorted array without duplicates
+- [Baeldung](https://www.baeldung.com/java-concatenate-arrays) - java concatenate arrays
+- [YouTube](https://www.youtube.com/watch?v=SVmfhlDnaaM) - HOW TO COMBINE TWO ARRAYS INTO ONE IN JAVA.
+- [Geeks For Geeks](https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/) - shared preferences in android
+- [Javatpoint](https://www.javatpoint.com/android-screen-orientation-example) - android screen orientation example
+- [Android Docs](https://developer.android.com/develop/ui/views/layout/linear) - linear

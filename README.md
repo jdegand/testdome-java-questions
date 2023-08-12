@@ -38,3 +38,10 @@
 - [Geeks For Geeks](https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/) - shared preferences in android
 - [Javatpoint](https://www.javatpoint.com/android-screen-orientation-example) - android screen orientation example
 - [Android Docs](https://developer.android.com/develop/ui/views/layout/linear) - linear
+- [Stack Overflow](https://stackoverflow.com/questions/40899782/whats-the-best-way-in-selenium-webdriver-to-wait-for-buttons-to-be-enabled) - best way to wait for buttons to be enabled
+- [Browser Stack](https://www.browserstack.com/guide/selenium-wait-for-page-to-load) - selenium wait for page to load
+- [Stack Exchange](https://sqa.stackexchange.com/questions/38214/wait-until-element-is-not-clickable) - wait until element is not clickable
+- [Selenium Docs](https://www.selenium.dev/documentation/webdriver/waits/) - webdriver waits
+- [Github](https://github.com/SeleniumHQ/seleniumhq.github.io/blob/trunk/examples/java/src/test/java/dev/selenium/waits/WaitsTest.java#L70-L80) - WaitsTest.java
+- [YouTube](https://www.youtube.com/watch?v=EihPj2o0U04&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=54) - Selenium WebDriver Tutorial #35 - How to Use Fluent Wait in Selenium
+- [Stack Overflow](https://stackoverflow.com/questions/28417642/whats-the-best-way-to-make-the-driver-wait-until-a-condition-is-true-and-contin) - best way to make driver wait until a condition is true 

@@ -45,3 +45,6 @@
 - [Github](https://github.com/SeleniumHQ/seleniumhq.github.io/blob/trunk/examples/java/src/test/java/dev/selenium/waits/WaitsTest.java#L70-L80) - WaitsTest.java
 - [YouTube](https://www.youtube.com/watch?v=EihPj2o0U04&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=54) - Selenium WebDriver Tutorial #35 - How to Use Fluent Wait in Selenium
 - [Stack Overflow](https://stackoverflow.com/questions/28417642/whats-the-best-way-to-make-the-driver-wait-until-a-condition-is-true-and-contin) - best way to make driver wait until a condition is true 
+- [Geeks for Geeks](https://www.geeksforgeeks.org/array-copy-in-java/) - array copy in java
+- [Stack Overflow](https://stackoverflow.com/questions/27857011/how-to-split-a-string-array-into-small-chunk-arrays-in-java) - chunk an array
+- [Techie Delight](https://www.techiedelight.com/check-index-exists-array-java/) - check index exists array java

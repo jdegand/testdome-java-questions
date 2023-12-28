@@ -2,6 +2,11 @@
 
 [Testdome](https://www.testdome.com/tests/java-online-test/24)
 
+## Continued Development
+
+- Java / Boat Movements - BFS search visit function
+- Java / Route Planner
+
 ## Useful Resources
 
 - [Blog](https://javahungry.blogspot.com/2020/06/add-char-to-string.html) - add char to string

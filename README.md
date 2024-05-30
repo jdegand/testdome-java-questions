@@ -4,7 +4,6 @@
 
 ## Continued Development
 
-- Java / Boat Movements - BFS search visit function
 - Java / Route Planner
 
 ## Useful Resources

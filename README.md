@@ -2,10 +2,6 @@
 
 [Testdome](https://www.testdome.com/tests/java-online-test/24)
 
-## Continued Development
-
-- Java / Route Planner
-
 ## Useful Resources
 
 - [Blog](https://javahungry.blogspot.com/2020/06/add-char-to-string.html) - add char to string
@@ -52,3 +48,7 @@
 - [Geeks for Geeks](https://www.geeksforgeeks.org/array-copy-in-java/) - array copy in java
 - [Stack Overflow](https://stackoverflow.com/questions/27857011/how-to-split-a-string-array-into-small-chunk-arrays-in-java) - chunk an array
 - [Techie Delight](https://www.techiedelight.com/check-index-exists-array-java/) - check index exists array java
+- [Baeldung](https://www.baeldung.com/java-depth-first-search) - java depth first search
+- [FavTutor](https://favtutor.com/blogs/depth-first-search-java) - depth first search java
+- [Programiz](https://www.programiz.com/dsa/graph-dfs) - graph dfs
+- [Java Challengers](https://javachallengers.com/depth-first-search-with-java/) - depth first search with java

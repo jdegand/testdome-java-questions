@@ -1,20 +1,36 @@
-import org.aspectj.lang.*;
-import org.aspectj.lang.annotation.*;
-import org.springframework.context.annotation.*;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Component;
-import org.springframework.beans.factory.annotation.*;
-import java.lang.annotation.*;
-import java.util.*;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Date;
+import java.util.UUID;
 
 @Aspect
 @Component
 public class LoggerAOP {
-    @Autowired private Logger logger;
-    
+    private final Logger logger;
+
+    @Autowired
+    public LoggerAOP(Logger logger) {
+        this.logger = logger;
+    }
+
     @Around("execution(public * *(..)) && @annotation(LogExecution)")
-    public void loggingAdvice(JoinPoint jp) {
-      String method = jp.getSignature().getName();
-      logger.log(method);
+    public Object loggingAdvice(ProceedingJoinPoint pjp) throws Throwable {
+        String method = pjp.getSignature().getName();
+        logger.log(method);
+        return pjp.proceed();
     }
 }
 
@@ -31,15 +47,16 @@ class NameRepository {
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-@interface LogExecution {}
+@interface LogExecution {
+}
 
 interface Logger {
-    public void log(String data);
+    void log(String data);
 }
 
 @Configuration
 @EnableAspectJAutoProxy
-@Import({LoggerAOP.class, NameRepository.class})
+@Import({ LoggerAOP.class, NameRepository.class })
 class Config {
     @Bean
     public Logger logger() {

@@ -7,14 +7,12 @@ public class AccountTest {
     @Test
     public void accountCannotHaveNegativeWithdraw() {
         Account account = new Account(-20);
-        
         Assert.assertEquals(false, account.withdraw(-20));
     }
   
     @Test
     public void accountCannotHaveNegativeDeposit() {
         Account account = new Account(-20);
-        
         Assert.assertEquals(false, account.deposit(-20));
     }
   

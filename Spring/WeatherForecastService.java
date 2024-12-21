@@ -22,7 +22,7 @@ class Config {
     @Bean
     public TemperatureMeasurementCallback callback() {
         System.out.println("Registering TemperatureMeasurementCallback bean");
-        return (temperature) -> System.out.println(temperature);
+        return temperature -> System.out.println(temperature);
     }
 }
 

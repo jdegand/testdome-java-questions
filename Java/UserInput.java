@@ -1,5 +1,3 @@
-import java.lang.Character;
-
 public class UserInput {
     public static class TextInput {
       StringBuilder value = new StringBuilder();

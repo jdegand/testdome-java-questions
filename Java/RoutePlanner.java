@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class RoutePlanner {
 
     public static boolean routeExists(int fromRow, int fromColumn, int toRow, int toColumn, boolean[][] mapMatrix) {

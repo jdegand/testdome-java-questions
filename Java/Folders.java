@@ -26,7 +26,7 @@ public class Folders {
         doc.getDocumentElement().normalize();
         NodeList folders = doc.getElementsByTagName("folder");
 
-        Collection<String> list = new LinkedList<String>();
+        Collection<String> list = new LinkedList<>();
 
         for (int i = 0; i < folders.getLength(); i++) {
             Node folder = folders.item(i);

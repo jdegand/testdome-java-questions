@@ -7,7 +7,7 @@ public class TrainComposition {
   
     public TrainComposition() 
     {
-      train = new LinkedList<Integer>();
+      train = new LinkedList<>();
     }
   
     public void attachWagonFromLeft(int wagonId) {

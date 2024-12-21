@@ -6,7 +6,6 @@ import java.util.UUID;
 /* all methods in an interface are inherently public and abstract. */
 interface AlertDAO {
     UUID addAlert(Date time);
-
     Date getAlert(UUID id);
 }
 
@@ -27,7 +26,7 @@ class AlertService {
 }
 
 class MapAlertDAO implements AlertDAO {
-    private final Map<UUID, Date> alerts = new HashMap<UUID, Date>();
+    private final Map<UUID, Date> alerts = new HashMap<>();
 
     public UUID addAlert(Date time) {
         UUID id = UUID.randomUUID();

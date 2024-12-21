@@ -1,6 +1,7 @@
 class Node {
     public int value;
-    public Node left, right;
+    public Node left;
+    public Node right;
 
     public Node(int value, Node left, Node right) {
         this.value = value;

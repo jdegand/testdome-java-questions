@@ -60,6 +60,6 @@ interface Logger {
 class Config {
     @Bean
     public Logger logger() {
-        return (message) -> System.out.println(message);
+        return message -> System.out.println(message);
     }
 }
